@@ -1,0 +1,12 @@
+api.controller=function($scope) {
+  var c = this;
+
+  c.topics = [
+    { icon: "fa-briefcase", name: "Benefits" },
+    { icon: "fa-credit-card", name: "Payroll" },
+    { icon: "fa-laptop", name: "IT Support" },
+    { icon: "fa-plane", name: "Travel" },
+    { icon: "fa-shield-alt", name: "Security" },
+    { icon: "fa-building", name: "Facilities" }
+  ];
+}
