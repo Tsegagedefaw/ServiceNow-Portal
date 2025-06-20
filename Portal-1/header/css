@@ -1,0 +1,128 @@
+/* Top Menu */
+.top-nav {
+  background-color: #fff;
+  padding: 10px 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+.nav-menu li {
+  cursor: pointer;
+  position: relative;
+  color: #222;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #43389f, #4ec6ca);
+  color: white;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.welcome {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.hero-search {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  background: #fff;
+}
+
+/* Right Card Section */
+.hero-right {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.announcement-card {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.announcement-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.announcement-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.announcement-card a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4ec6ca;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-left,
+  .hero-right {
+    max-width: 100%;
+  }
+
+  .announcement-card {
+    margin-top: 20px;
+  }
+
+  .nav-menu {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
