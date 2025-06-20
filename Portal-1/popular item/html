@@ -1,0 +1,11 @@
+<!-- Popular Topics Main Card -->
+<div class="popular-topics-card">
+  <h3 class="card-title">Popular Topics</h3>
+  <div class="topics-grid">
+    <div class="topic-tile" ng-repeat="item in c.topics">
+      <i class="fa {{item.icon}} topic-icon"></i>
+      <span class="topic-name">{{item.name}}</span>
+      <i class="fa fa-chevron-right topic-arrow"></i>
+    </div>
+  </div>
+</div>
