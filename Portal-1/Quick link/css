@@ -1,0 +1,58 @@
+/* Main Card */
+.quick-links-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Grid Layout: 2 columns x 3 rows */
+.quick-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+/* Individual Link Item */
+.link-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.link-item:hover {
+  background-color: #f0f0f0;
+}
+
+.link-logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.link-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .quick-links-grid {
+    grid-template-columns: 1fr;
+  }
+}
