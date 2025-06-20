@@ -1,0 +1,28 @@
+<!-- Top Navigation Menu -->
+<div class="top-nav">
+  <ul class="nav-menu">
+    <li>Pay & Benefits <i class="fa fa-caret-down"></i></li>
+    <li>Life @ ABC <i class="fa fa-caret-down"></i></li>
+    <li>Reporting, Systems and Tools <i class="fa fa-caret-down"></i></li>
+    <li>Finance <i class="fa fa-caret-down"></i></li>
+  </ul>
+</div>
+
+<!-- Hero Section -->
+<div class="hero-section">
+  <div class="hero-left">
+    <h1 class="welcome">Welcome James Philips</h1>
+    <p class="subtext">How can we help you today?</p>
+    <div class="search-container">
+      <input type="text" class="hero-search" placeholder="Search All">
+      <i class="fa fa-search search-icon"></i>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="announcement-card">
+      <h3>ABC Updates & Resources Regarding COVID19</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet...</p>
+      <a href="#">→ READ MORE</a>
+    </div>
+  </div>
+</div>
