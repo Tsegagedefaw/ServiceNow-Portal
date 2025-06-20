@@ -1,1 +1,22 @@
+<!-- Header -->
+<div class="esc-header">
+  <div class="menu-toggle" ng-click="c.toggleSidebar()">
+    <i class="fa fa-bars"></i>
+  </div>
+  <div class="esc-title">Employee Service Center</div>
+</div>
 
+<!-- Sidebar Menu (starts below the header) -->
+<div class="custom-sidebar" ng-class="{'open': c.sidebarOpen}">
+  <ul class="sidebar-icons">
+    <li><i class="fa fa-sign-out"></i></li>
+    <li><i class="fa fa-users"></i></li>
+    <li><i class="fa fa-shield-alt"></i></li>
+    <li><i class="fa fa-globe"></i></li>
+    <li><i class="fa fa-desktop"></i></li>
+    <li><i class="fa fa-tag"></i></li>
+    <li><i class="fa fa-cogs"></i></li>
+    <li><i class="fa fa-archive"></i></li>
+    <li><i class="fa fa-window-maximize"></i></li>
+  </ul>
+</div>
