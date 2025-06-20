@@ -1,0 +1,10 @@
+<!-- Quick Links Main Card -->
+<div class="quick-links-card">
+  <h3 class="card-title">Quick Links</h3>
+  <div class="quick-links-grid">
+    <div class="link-item" ng-repeat="link in c.quickLinks">
+      <img class="link-logo" ng-src="{{link.logo}}" alt="{{link.name}} logo">
+      <span class="link-name">{{link.name}}</span>
+    </div>
+  </div>
+</div>
