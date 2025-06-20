@@ -1,0 +1,10 @@
+api.controller=function($scope) {
+  var c = this;
+
+  c.sidebarOpen = false;
+
+  c.toggleSidebar = function() {
+    c.sidebarOpen = !c.sidebarOpen;
+  };
+};
+
